@@ -1,0 +1,37 @@
+{
+    "name": "ishopper",
+    "private": true,
+    "dependencies": {
+        "bootstrap-sass": "~3.3.5",
+        "modernizr": "~2.8.3",
+        "bootstrap-material-design": "~0.3.0",
+        "animate.css": "~3.4.0",
+        "angular": "~1.4.7"
+    },
+    "overrides": {
+        "angular": {
+            "main": "angular.js"
+        },
+        "bootstrap-sass": {
+            "main": [
+                "assets/stylesheets/_bootstrap.scss",
+                "assets/fonts/bootstrap/*",
+                "assets/javascripts/bootstrap.js"
+            ]
+        },
+        "bootstrap-material-design": {
+            "main": [
+                "sass/material.scss",
+                "sass/ripples.scss",
+                "scripts/*"
+            ]
+        },
+        "animate.css": {
+            "main": "animate.css"
+        }
+    },
+    "devDependencies": {
+        "chai": "~3.3.0",
+        "mocha": "~2.3.3"
+    }
+}
